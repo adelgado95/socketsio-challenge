@@ -1,0 +1,15 @@
+{
+  "name": "socketsio-challenge",
+  "version": "1.0.0",
+  "description": "socketsiochallenge",
+  "author": "ajdfdelgado@gmail.com",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1",
+    "socket.io": "^4.5.1"
+
+  }
+}
