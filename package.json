@@ -5,11 +5,13 @@
   "author": "ajdfdelgado@gmail.com",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "jest"
   },
   "dependencies": {
     "express": "^4.16.1",
-    "socket.io": "^4.5.1"
+    "socket.io": "^4.5.1",
+    "jest": "28.1.3" 
 
   }
 }
