@@ -8,7 +8,7 @@ io.on("connection", (socket) => {
     //Socket is a Link to the Client 
     console.log("New Client is Connected!");
     //Here the client is connected and we can exchanged 
-    socket.emit("welcome", "Hello and Welcome to the Server2");
+    socket.emit("welcome", "Hello and Welcome to the Server-test");
 });
 
 //Listen the HTTP Server 
