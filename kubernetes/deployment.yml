@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ws-deployment
+  labels:
+    app: websocketsapp
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: websocketsapp
+  template:
+    metadata:
+      labels:
+        app: websocketsapp
+    spec:
+      containers:
+      - name: websocketsapp
+        image: adelgado95/node-challenge
+        ports:
+        - containerPort: 80
+
